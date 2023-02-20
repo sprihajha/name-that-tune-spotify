@@ -1,4 +1,4 @@
-# blindtest-spotify
+# Name that Tune - Spotify
 
 This is a simple demo of how to create a blindtest using Spotify and React.
 
