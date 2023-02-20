@@ -7,8 +7,8 @@ This is a simple demo of how to create a blindtest using Spotify and React.
 First, fork / clone the repository.
 
 ```bash
-git clone git@github.com:clement-escolano/blindtest-spotify.git
-cd blindtest-spotify
+git clone git@github.com:anaisberg/name-that-tune-spotify.git
+cd name-that-tune-spotify
 ```
 
 Then, install the dependencies.
