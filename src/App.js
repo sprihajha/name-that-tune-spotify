@@ -7,7 +7,7 @@ import './App.css';
 import Sound from 'react-sound';
 import Button from './Button';
 
-const apiToken = '<<Copiez le token de Spotify ici>>';
+const apiToken = '<<Copy the Spotify token here>>';
 
 function shuffleArray(array) {
   let counter = array.length;
@@ -39,10 +39,10 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo"/>
-          <h1 className="App-title">Bienvenue sur le Blindtest</h1>
+          <h1 className="App-title">Welcome on the Name that Tune</h1>
         </header>
         <div className="App-images">
-          <p>Il va falloir modifier le code pour faire un vrai Blindtest !</p>
+          <p>You will have to change the code to run a real game!</p>
         </div>
         <div className="App-buttons">
         </div>
