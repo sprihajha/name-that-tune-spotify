@@ -1,13 +1,13 @@
 /*global swal*/
 
-import React from 'react';
-import logo from './logo.svg';
-import loading from './loading.svg';
-import './App.css';
-import Sound from 'react-sound';
-import Button from './Button';
+import React from "react";
+import logo from "./logo.svg";
+import loading from "./loading.svg";
+import "./App.css";
+import Sound from "react-sound";
+import Button from "./Button";
 
-const apiToken = '<<Copy the Spotify token here>>';
+const apiToken = "<<Copy the Spotify token here>>";
 
 function shuffleArray(array) {
   let counter = array.length;
@@ -29,7 +29,6 @@ function getRandomNumber(x) {
 }
 
 const App = () => {
-
   return (
     <div className="App">
       <header className="App-header">
@@ -37,10 +36,9 @@ const App = () => {
         <h1 className="App-title">Welcome on the Name that Tune</h1>
       </header>
       <div className="App-images">
-        <p>You will have to change the code to run a real game!</p>
+        <p>Changed the code to run a real game!</p>
       </div>
-      <div className="App-buttons">
-      </div>
+      <div className="App-buttons"></div>
     </div>
   );
 };
